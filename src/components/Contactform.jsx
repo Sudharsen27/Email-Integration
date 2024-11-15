@@ -127,8 +127,13 @@ function Contactform() {
 
   return (
     <div style={styles.container}>
+      
       <form onSubmit={handleSubmit} style={styles.form}>
+        
         <h2 style={styles.title}>Contact Us</h2>
+        <span>
+        We'd love to hear from you. Fill out the form below to get in touch.
+        </span>
         
         {responseMessage && (
           <p style={{
